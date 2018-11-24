@@ -1,0 +1,227 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container"><br>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Survey Questions</h1>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-12">
+                <h2><strong>About You</strong></h2>
+                <h4>Name (required):</h4>
+                <div id="nameInput">
+                    <input id="name" class="form-control" type="text" placeholder="Please Enter Your Name Here">
+                </div>
+                <h4>Link to Photo Image (required):</h4>
+                <div id="photoInput">
+                    <input id="photo" class="form-control" type="text" placeholder="Please Enter a Link to Your Photo Image Here">
+                </div>
+            </div>
+        </div><br><br>
+        <div class="row">
+            <div class="col-md-12">
+                <h2><strong>Question 1</strong></h2>
+                <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+                <select id="questionOne" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 2</strong></h2>
+                <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+                <select id="questionTwo" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 3</strong></h2>
+                <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+                <select id="questionThree" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 4</strong></h2>
+                <h4>You rarely do something just out of sheer curiosity.</h4>
+                <select id="questionFour" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 5</strong></h2>
+                <h4>People can rarely upset you</h4>
+                <select id="questionFive" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 6</strong></h2>
+                <h4>It is often difficult for you to relate to other people's feelings.</h4>
+                <select id="questionSix" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 7</strong></h2>
+                <h4>In a discussion truth should be more important than people's sensitivities.</h4>
+                <select id="questionSeven" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 8</strong></h2>
+                <h4>You rarely get carried away by fantasies and ideas.</h4>
+                <select id="questionEight" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 9</strong></h2>
+                <h4>You think everyone's views should be respected regardless of whether they are supported by facts or
+                    not.</h4>
+                <select id="questionNine" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select><br>
+                <br>
+                <h2><strong>Question 10</strong></h2>
+                <h4>You feel more energetic after spending time with a group of people.</h4>
+                <select id="questionTen" class="my_select_box" data-placeholder="Select Your Options">
+                    <option value="1"> 1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-12">
+                <button id="submitButton" type="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+            </div>
+        </div><br><br>
+    </div>
+    <script type="text/javascript">
+        $("#submitButton").on("click", function (event) {
+            var name = $("#name").val().trim();
+            var photoInput = $("#photo").val().trim();
+            var questionOne = parseInt($("#questionOne").val());
+            var questionTwo = parseInt($("#questionTwo").val());
+            var questionThree = parseInt($("#questionThree").val());
+            var questionFour = parseInt($("#questionFour").val());
+            var questionFive = parseInt($("#questionFive").val());
+            var questionSix = parseInt($("#questionSix").val());
+            var questionSeven = parseInt($("#questionSeven").val());
+            var questionEight = parseInt($("#questionEight").val());
+            var questionNine = parseInt($("#questionNine").val());
+            var questionTen = parseInt($("#questionTen").val());
+
+            console.log(name, photoInput, questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven, questionEight, questionNine, questionTen);
+
+            var newFriend = {
+                name: name,
+                photoInput: photoInput,
+                scores: [parseInt(questionOne), parseInt(questionTwo), parseInt(questionThree), parseInt(questionFour), parseInt(questionFive), parseInt(questionSix), parseInt(questionSeven), parseInt(questionEight), parseInt(questionNine), parseInt(questionTen)]
+            };
+            console.log(newFriend);
+
+            $.post("/api/friends", newFriend, function (data) {
+                if (data) {
+                    console.log(data);
+                } else {
+                    console.log("This did not work");
+                }
+                
+                $("#name").val("");
+                $("#photo").val("");
+                $("#questionOne").val("");
+                $("#questionTwo").val("");
+                $("#questionThree").val("");
+                $("#questionFour").val("");
+                $("#questionFive").val("");
+                $("#questionSix").val("");
+                $("#questionSeven").val("");
+                $("#questionEight").val("");
+                $("#questionNine").val("");
+                $("#questionTen").val("");
+
+
+            })
+
+            function friendFinder() {
+                $.ajax({ url: "/api/friends", method: "GET"}).then(function(friendsData){
+                    //running friend finder will log the data retrieved via the GET method above to the browser console
+                    console.log(friendsData);
+                    //need to grab scores array from each object that represents a friend
+                    //then need to sum all of the numbers in each friend object in the friendsData array
+                    //take the current user's score and compare it to all other absolute value sums of the previous users
+                    //return the user that has the closest score
+                    for (i = 0; i < friendsData.length; i++) {
+                        var rawScores = friendsData[i].scores;
+                        var parsedRawScores = [];
+                        console.log(friendsData[i].name);
+                        console.log(parsedRawScores);
+                        for (i = 0; i < rawScores.length; i++) {
+                            parsedRawScores.push(parseInt(rawScores[i]));
+                        }
+                            
+                        
+                            console.log(parsedRawScores);
+                            var add  = (a, b) => a + b;
+                            var sum = parsedRawScores.reduce(add);
+                            console.log(sum);
+                    
+                        }
+                        
+
+                    })
+            }
+            friendFinder();
+
+        });
+
+
+
+    </script>
+</body>
+
+</html>
